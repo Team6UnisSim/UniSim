@@ -24,7 +24,6 @@
     <a href="docs/CODE.docx.pdf"> Code (--not uploaded--)<br></a>
     <p>Version Control -> Press to view GitHub Repository:</p>
     <a href="https://github.com/diogenis98/Eng1" target="_blank"> Repository</a>
-    </p>
     <br>
 
     <a href="about.html"> About TEAM6</a>
@@ -32,12 +31,57 @@
     <br>
 
     <h3>GAME OVERVIEW</h3>
-    <p> UniSim is a single player simulation game where players are tasked with building and managing a university campus. The goal of the game is to achieve maximum student satisfaction score by the end of the time. 
-    The player begins with an empty map and are offered options to construct several buildings which cannot be altered after. Once the game begins, the player must use their resources available to them wisely to achieve the best student satisfaction possible by striking a balance between different factors. These factors include but are not limited to: building types, building proximity to relevant facilities, building and infrastructure maintenance, links between campus areas, strategic placement of natural elements. 
-    The player is presented with special events that occur randomly. The events may be positive, negative or have no impact based on the players reaction (or non-reaction). The player must decide how to allocate and acquire resources during the game to achieve the best outcome.
-    The game has a time limit of 5 minutes, then the game stops and the score is displayed as well as a complementary message reflecting performance. While the game cannot be “failed”, the message will indicate how well the player did.
-    It is assumed that players will have basic familiarity with simulation games and how game interfaces work. A short tutorial or interface explanations should be provided highlighting certain aspects of the game in the beginning. 
+    <p> The game will take place on a 2D tile map with edges simulating a university campus. The setting of the map can be realistic or fantasy. For this initial game version, one will be created, with possible additions in the future. In this minimal viable product, the map will not be extendable. The player can place infrastructure elements within the map's limits, but natural elements will prohibit building placement. Players can utilise natural features to maximise student satisfaction (e.g., placing a connection between 2 buildings near a lake to enhance campus aesthetics), while other elements (e.g., a hill) will provide no direct benefit and must be worked around.
+        The map will rotate between a few premade versions. The map will contain multiple terrain types, such as grassland, overgrown grassland, woodland, trees, lake, river, road, pavement, rocky terrain, hills, urban area, gravel and brushland. These will be randomly generated. The player will be able to modify most terrain types to make best use of the area but certain terrains (e.g., hills and rivers) will need to be worked around.
+        Maintenance will play an important role in the game and if it is not carried out, some terrains will degrade, reducing student satisfaction. For example, trees may develop into woodland and grass into overgrown grass, eventually becoming brushland and algae will eventually develop in lakes. The player must allocate resources to maintain grassland, if left to grow into brushland, clearing later will require more resources and may lead to building or road closures. 
+        Timer
+        The timer will be start paused to allow the first-time player to familiarise themselves with the game interface and mechanics. A short tutorial will be displayed during this time. Once the player is ready, they will press 'start', which will begin the 5-minute timer, representing 3 years of in-game time.
+        Buildings
+        Buildings play a crucial role in the game as they will be the player's primary way of increasing student satisfaction. Different buildings will offer different benefits that will increase student satisfaction. They will require resource allocation for maintenance and upgrades will be possible. Constructing them will be the primary way for the player to spend their money and the construction times must be taken into consideration as they can have a negative impact on student satisfaction if they are placed near a library (noisy) or can cause accidents if placed near recreation areas.
+        Here's a non-exhaustive list of buildings for each type that will be available for construction:
     </p>
+        <table border="1">
+            <tr>
+              <th>Header 1</th>
+              <th>Header 2</th>
+              <th>Header 3</th>
+              <th>Header 4</th>
+              <th>Header 5</th>
+              <th>Header 6</th>
+            </tr>
+            <tr>
+              <td>Lessons</td>
+              <td>Study</td>
+              <td>Food</td>
+              <td>Events</td>
+              <td>Accommodation</td>
+              <td>Infrastructure</td>
+            </tr>
+            <tr>
+              <td>Lecture hall</td>
+              <td>Library</td>
+              <td>Restaurant</td>
+              <td>Event hall</td>
+              <td>Student hall</td>
+              <td>Road</td>
+            </tr>
+            <tr>
+              <td>Laboratory</td>
+              <td>Study room</td>
+              <td>Cafeteria</td>
+              <td>Common room</td>
+              <td>Student houses</td>
+              <td>Pavement</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>Vending Machine</td>
+              <td></td>
+              <td></td>
+              <td>Bridge</td>
+            </tr>
+        </table>
 
 </body>
 </html>
