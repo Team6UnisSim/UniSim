@@ -1,13 +1,6 @@
 body {
-    padding: 50px;
+    margin: 50;
     background: rgb(223, 244, 255);
     font-family: "Verdana", sans-serif;
-    box-sizing: border-box;
-    margin: 0;
-}
-
-.main-content {
-    min-height: 100vh;
-    overflow-y: auto; /* Enables scrolling if content overflows but prevents extra space */
 }
 
