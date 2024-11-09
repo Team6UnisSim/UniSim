@@ -3,5 +3,5 @@ body{
     background: rgb(223, 244, 255);
     text-align: centre;
     font-family: "Verdana", sans-serif;
-    min-height: calc(100vh - 100px);
+    box-sizing: border-box;
 }
