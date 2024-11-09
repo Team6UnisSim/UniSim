@@ -1,6 +1,8 @@
-body{
-    margin: 50px;
+body {
+    padding: 50px;
     background: rgb(223, 244, 255);
-    text-align: centre;
+    text-align: center; 
     font-family: "Verdana", sans-serif;
+    box-sizing: border-box; 
 }
+
