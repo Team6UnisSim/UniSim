@@ -1,6 +1,9 @@
 body {
     margin: 50;
+    padding: 0;
     background: rgb(223, 244, 255);
     font-family: "Verdana", sans-serif;
+    box-sizing: border-box;
+    overflow-y: hidden;
 }
 
